@@ -1,15 +1,16 @@
-// import logo from './logo.svg';
+import React from 'react'
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
+import Header from './container/Header/Header'
+import AboutUs from './container/AboutUs/AboutUs'
 
 function App() {
   return (
-    <Navbar />
-    // <div className="App">
-    //   <header className="App-header">
-    //     {/* <img src={logo} className="App-logo" alt="logo" /> */}
-    //   </header>
-    // </div>
+    <>
+      <Navbar />
+      <Header />
+      <AboutUs />
+    </>
   )
 }
 
