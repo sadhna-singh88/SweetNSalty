@@ -61,7 +61,7 @@
     line-height: 28px;
     font-size: 16px;
     padding: 0.5rem 1.5rem;
-    border-radius: 1px;
+    border-radius: 2px;
     border: none;
     outline: none;
     cursor: pointer;
@@ -98,7 +98,7 @@
 }
 
 .spoon__img {
-  width: 45px;
+  width: 40px;
 }
 
 @media screen and (min-width: 2000px) {
