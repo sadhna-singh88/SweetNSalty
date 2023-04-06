@@ -44,15 +44,7 @@ export const SpecialMenu = () => {
         </div>
       </div>
 
-      <div
-        style={{
-          marginTop: 5,
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-          height: '100vh',
-        }}
-      >
+      <div style={{ marginTop: 10 }}>
         <button type="button" className="custom__button">
           View More
         </button>
